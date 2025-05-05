@@ -12,7 +12,7 @@ Conversor de moedas simples e intuitivo, desenvolvido com React, que permite ao 
 
 ## 🚀 Primeiros passos
 
-## 📦 Instalação local
+### 📦 Instalação local
 
 Clone o repositório e instale as dependências:
 
