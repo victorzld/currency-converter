@@ -115,7 +115,7 @@ export function CurrencyConverter() {
     <Card className="w-full max-w-md mx-auto glass-card animate-fade-in">
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl font-bold text-center">
-          Seu dolar Hoje !
+          Seu dólar Hoje !
         </CardTitle>
         <CardDescription className="text-center">
           {loading
