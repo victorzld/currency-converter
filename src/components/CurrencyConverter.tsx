@@ -134,7 +134,7 @@ export function CurrencyConverter() {
           <div className="relative">
             <Input
               id="amount"
-              type="number"
+              type="text"
               value={amount}
               onChange={(e) => setAmount(Number(e.target.value))}
               placeholder="Digite o valor..."
