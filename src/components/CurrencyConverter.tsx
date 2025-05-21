@@ -98,7 +98,7 @@ export function CurrencyConverter() {
     const fromSymbol = getCurrencySymbol(fromCurrency);
     const toSymbol = getCurrencySymbol(toCurrency);
 
-    return `1 ${fromSymbol} = ${toSymbol} ${rate.toFixed(4)} `;
+    return `1 ${fromSymbol} = ${toSymbol} ${rate.toFixed(2)} `;
   };
 
   const formatLastUpdated = () => {
@@ -137,7 +137,7 @@ export function CurrencyConverter() {
               type="number"
               value={amount}
               onChange={(e) => setAmount(Number(e.target.value))}
-              placeholder="Enter amount"
+              placeholder="Digite o valor..."
               className="pr-10"
               min={0}
             />
